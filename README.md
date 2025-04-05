@@ -1,2 +1,20 @@
-# College-Based-Chatbot
-This AI-powered chatbot is designed to assist students, faculty, and visitors with quick and accurate information about Government College Awasari Pune. It provides instant responses to queries related to admissions, courses, faculty, events, and general campus details.
+# 🤖 Awasari College Chatbot
+
+A smart chatbot developed for Government College of Engineering and Research, Awasari (Kh), designed to assist students with common college-related queries.
+
+## ✨ Features
+
+- Provides basic college information
+- Answers FAQs about admissions, departments, campus facilities, etc.
+- Simple and user-friendly interface
+- Built using Python and Streamlit (or your tech stack)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Install required packages using:
+
+```bash
+pip install -r requirements.txt
