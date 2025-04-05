@@ -1,0 +1,153 @@
+{"intents": [
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", " anyone there?","Hey","Hola", "Hello","Hiii","hii","hi", "Good day"],
+   "responses": ["Hello, how can I help?", "Good to see you again", "Hi there, how can I help?"],
+   "context": [""]
+  },
+  {"tag": "not understand",
+   "patterns": ["what", ".....", "ggggggg", " of ","is","who","in","are","how", "the","college","branch","collage","Intake capacity","111111122"],
+   "responses": ["Sorry ,please provide more info!!!", "Can't understand,please provide more info!!!"],
+   "context": [""]
+  },
+  {"tag": "Intake common",
+   "patterns": ["Intake capacity", "intake", "capacity"],
+   "responses": ["Sorry ,I Cant understand properly which intake do you want Boys hostel,Girls hostel or Branch "],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  
+  {"tag": "College fees",
+    "patterns": ["college fee?"," college fees","fees college","fees","fee"],
+    "responses": ["college fee for General category is 10711 rupees and for OBC category is 7711 rupees ,For more information Please visit our website or contact our admission office."],
+    "context": [""]
+   },
+   {"tag": "College Address",
+   "patterns": [" college located"," loaction of college","location","collage place","Where college","Address"],
+   "responses": [" GPAwasari college is located At Awasari (khurd) near Manchar Tal:-Ambegaon,Dist:-pune"],
+   "context": [""]
+  },
+  {"tag": "Principal",
+  "patterns": ["who is the principal?","Principal Name"],
+  "responses": ["Dr. D.R. Nandanwar sir is the Principal Of Government Polytechnic Awasari(kh)"],
+  "context": [""]
+ },
+ {"tag": "College Departments",
+ "patterns": ["How many Departments","Department","Departments Name"],
+ "responses": ["There are Seven Departments in college,There names are 1]Information Technology 2]Computer Engineering 3]Mechanical Engineering 4]Automobile Engineering 5]Civil Engineering 6]Electrical Engineering 7]Electronics & Telecommunication Engineering,"],
+ "context": [""]
+},
+{"tag": "Vision",
+"patterns": ["Vision College","Vision"," Vision of College"],
+"responses": ["To inculcate Technical and Life skills among Rural masses to make them competent Technocrats and efficient Nation builders."],
+"context": [""]
+},
+{"tag": "DTE Code",
+  "patterns": ["DTE Code college","DTE College Code","What is DTE code of college","DTE Code"],
+  "responses": ["6011 is DTE code of Goverment Polytechnic Awasari"],
+  "context": [""]
+ },
+ {"tag": "College Code",
+  "patterns": ["MSBTE Code of college"," MSBTE College Code","What is MSBTE code of college","College Code"],
+  "responses": ["1051 is College code of Goverment Polytechnic Awasari"],
+  "context": [""]
+ },
+ {"tag": "Branch Capacity",
+  "patterns": ["Branch Intake capacity","Strength of class","Branch Strength"],
+  "responses": ["Intake capacity of each branch is 60 students. For more information Please visit our website or contact our admission office."],
+  "context": [""]
+ },
+ {"tag": "Contact Info",
+  "patterns": ["contact details","contact information","college contact"],
+  "responses": [" Institute Contact Details  Ph.No.: 02133-230250   Fax : 02133-225801   E-mail : gpawasari@gmail.com"],
+  "context": [""]
+ },
+ {"tag": "Campus Area",
+ "patterns": ["total campus area of college ","campus area"],
+ "responses": ["Institute is spread over 17 acres of land with high level infrastructure which includes Academic and Administrative Building (21000 Sqm.),"],
+ "context": [""]
+},
+{"tag": "Boys Hostel",
+ "patterns": ["Intake capacity of Boys hostel","boys hostel capacity"],
+ "responses": ["Boys Hostel has intake capacity of 336 students"],
+ "context": [""]
+},
+{"tag": "Girls Hostel",
+ "patterns": ["Intake capacity of Girls hostel","girls hostel capacity"],
+ "responses": ["Girls Hostel has intake capacity of 288 students."],
+ "context": [""]
+},
+{"tag": "Autonomous college",
+ "patterns": ["Autonomous college","our college is autonomous or not"],
+ "responses": ["No , It is an institution run by the Government of Maharashtra and offers diploma programs in engineering & technology ."],
+ "context": [""]
+},
+{"tag": "Admission",
+ "patterns": ["what is the admission process?",
+ "how can I apply for admission?",
+ "what are the eligibility criteria for admission?",
+ "when does the admission process start?",
+ "what documents are required for admission?",
+ "what is the last date to apply for admission?",
+ "what is the minimum cutoff for admission?"],
+ "responses": ["The admission process usually starts in the month of June every year. Eligibility criteria and required documents vary depending on the course you are applying for. The last date to apply for admission is usually in the month of July. The minimum cutoff for admission also varies depending on the course and category. Please visit our website or contact our admission office for more information.."],
+ "context": [""]
+},
+{"tag": "About College",
+"patterns": ["college all about?",
+" tell me about the college?",
+"what facilities available in the college?",
+"can you give me some information about the college?","College Information"],
+"responses": ["Gp Awasari College  spread over 17 acres of land with high level infrastructure which includes Academic and Administrative Building (21000 Sqm.), Mechanical Workshop, Automobile Workshop, Girls Hostel (288 Capacity), Boys Hostel (336 Capacity), Faculty and Staff Quarters and Play Ground,Gym & Library."],
+"context": [""]
+},
+{"tag": "Training and Placement",
+"patterns": [ "does the college provide training and placement?","what about placement"],
+"responses": ["Yes, we have an active training and placement cell that conducts various programs to prepare students for the recruitment process.Our placement record is excellent and we have tie-ups with some of the top companies in the industry.The placement process involves several rounds of interviews and tests"],
+"context": [""]
+},
+{"tag": "IF department",
+"patterns": [ "what is IT engineering?",
+"what are the subjects covered in IT engineering?","about information technology department","if branch information","it  branch information","about if"],
+"responses": ["IT engineering is a branch of engineering that deals with the design, development, and maintenance of information technology systems. It is a highly dynamic field with excellent career prospects. Some of the subjects covered in IT engineering are programming languages, database management, software engineering, and web development."],
+"context": [""]
+},
+{"tag": "Hostel info",
+"patterns": [  "what are the facilities available in the hostel?",
+"what is the accommodation capacity of the hostel?",
+"what is the food menu in the hostel mess?",
+"what are the rules and regulations of the hostel?",
+"what is the process for booking a hostel room?","hostel information","about hostel"],
+"responses": ["The hostel provides basic facilities such as a bed, cupboard, table, chair, and fan. There are also common facilities such as TV room, study room, and a mess.The food menu in the hostel mess is a combination of vegetarian and non-vegetarian dishes. The charges for staying in the hostel are Rs. 3000 per month, which includes accommodation and food. The rules and regulations of the hostel are to maintain cleanliness, not to cause disturbance to other residents, and to follow the hostel timings. The process for booking a hostel room involves filling up a hostel admission form, submitting the necessary documents, and paying the hostel fees."],
+"context": [""]
+},
+{"tag": "Library",
+"patterns": [  "what are the timings of the library?",
+"what are the facilities available in the library?",
+"what is the process for borrowing books from the library?",
+"what is the book collection in the library?",
+"what are the rules and regulations of the library?",
+"what is the membership fee for using the library?","Library info","about library"],
+"responses": ["The library is open from 9 am to 5 pm on weekdays and from 9 am to 12 pm on saturday. The library provides facilities such as reading rooms, reference books, journals, and e-resources. The process for borrowing books from the library involves registering as a library member, scanning the library card, and selecting the desired book from the catalog. The book collection in the library includes textbooks, reference books, and general reading books. Some of the rules and regulations of the library are to maintain silence, not to damage or deface books, and to return books on time. The membership fee for using the library is included in Fee Structure"],
+"context": [""]
+},
+{"tag": "IF HOD",
+"patterns": ["Who is IF HOD","Name of Information Technology Hod ","who is if Head of department"," Information Technology Head of department"],
+"responses": ["Dr. D.N. Rewadkar sir is Head of Department I.T."],
+"context": [""]
+}
+
+
+
+
+
+]
+}

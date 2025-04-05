@@ -1,0 +1,66 @@
+# class A:
+#     def printA():
+#         print("A")
+# class B:
+#     def printB():
+#         print("B")
+# class C(A,B):
+#     def printC():
+#         print("C")
+# c=C
+# c.printA()
+# c.printB()
+# c.printC()
+
+# class A:
+#     def printA():
+#         print("A")
+# class B(A):
+#     def printB():
+#         print("B")
+# class C(B):
+#     def printC():
+#         print("C")
+# c=C
+# c.printA()
+# c.printB()
+# c.printC()
+
+# class A:
+#     __p1="hi"
+#     __p2="bye"
+#     def __init__(self):
+#         self.__p1
+#         self.__p2
+#     def printA(self):
+#         print(self.__p1)
+#         print(self.__p2)
+# class B(A):
+#     def __init__(self):
+#         self.str1="non privete1"
+#         self.str2="non private2"
+#     def printB(self):
+#         print(self.str1)
+#         print(self.str2)
+# class C(B):
+#     str3="non private3"
+#     str4="non private4"
+#     def printC(self):
+#         print(self.str3)
+#         print(self.str4)
+# c=C()
+# c.printA()
+# c.printB()
+# c.printC()
+
+class India():
+    def capital(self):
+        print("New Delhi is the capital of India.")
+    def language(self):
+        print("Hindi is the most widely spoken language of India.")
+    def type(self):
+        print("India is a developing country.")
+obj=India()
+obj.capital()
+obj.language()
+obj.type()
